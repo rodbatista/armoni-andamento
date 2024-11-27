@@ -10,17 +10,17 @@ body{
     background-color: rgb(255, 255, 255);
 }
 .container{
-    background-color: #00000007;
+    background-color: #f1f1f1;
     flex-direction: column;
     border: 1px solid;
-    border-color: rgb(194, 194, 194);
+    border-color: rgba(194, 194, 194, 0.432);
     top: 50%;
     left: 50%;
     position: absolute;
     border-radius: 15px;
     padding: 50px;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 350px;
 }
 
 .input{
@@ -31,17 +31,18 @@ body{
     
 }
 
-.login h1{
-    font-size: 20px;
-    font-family: 'poppins';
-    font-weight: 400;
-    
-}
+
 .login h2{
     color: #000000;
     font-family: poppins;
-    font-weight: 200;
-
+    font-weight: 300;
+    margin: 0;
+}
+.login p{
+    font-size: 15px;
+    color: rgb(105, 105, 105);
+    margin-top: 2px;
+    margin-bottom: 25px;
 }
 .title h1{
     font-family:Libre Baskerville;
@@ -90,10 +91,13 @@ body{
 }
 .criarconta a{
     text-decoration: none;
+    color: #000000;
 }
-.criarconta :hover{
-text-decoration: underline;
-}
+
+
+.criarconta a:hover{
+   color: gray;
+    }
 button:hover{
     background-color: rgb(54, 54, 54);
     transform: translateY(-2px);
@@ -104,4 +108,5 @@ button:active{
 }
 input::placeholder{
 color: black;
+
 }
