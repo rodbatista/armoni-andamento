@@ -42,7 +42,7 @@ body{
     font-size: 15px;
     color: rgb(105, 105, 105);
     margin-top: 2px;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
 }
 .title h1{
     font-family:Libre Baskerville;
@@ -54,9 +54,23 @@ body{
     top: -85px; 
     left: 50%; 
     transform: translateX(-50%); 
-    
-    
 }
+.senha {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.senha i{
+    position: absolute;
+    display: flex;
+    right: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #222222;
+}
+
 .input button{  
     border: none;
     background-color: rgb(27, 27, 27);
@@ -86,12 +100,14 @@ body{
     
 }
 .criarconta {
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
+    
 }
 .criarconta a{
     text-decoration: none;
     color: #000000;
+    
 }
 
 
@@ -107,6 +123,6 @@ button:active{
     transform: translateY(2px)
 }
 input::placeholder{
-color: black;
+color: rgb(102, 102, 102);
 
 }
